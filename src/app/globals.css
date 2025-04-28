@@ -73,3 +73,19 @@ p {
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
+
+.link-button {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.link-button:hover {
+  background-color: #0051a3;
+}
