@@ -1,10 +1,12 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
-  return (
-      <div>
-        <h1>Welcome to My Portfolio!</h1>
-        <p>This is an empty React app.</p>
-      </div>
-  );
+    return (
+        <div>
+            <h1>Home Page</h1>
+            <Link href="/about">
+                Go to About
+            </Link>
+        </div>
+    );
 }
