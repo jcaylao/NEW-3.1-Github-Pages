@@ -1,1 +1,1 @@
-Created a new next.js react app for 3.1
+Used Next.js to create an online portfolio
