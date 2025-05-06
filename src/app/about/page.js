@@ -8,6 +8,9 @@ export default function About() {
             <Link href="/" className="link-button">
                 Go back Home
             </Link>
+            <Link href="/projects" className="link-button">
+                Go to Projects
+            </Link>
         </div>
     );
 }
